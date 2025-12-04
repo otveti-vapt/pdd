@@ -93,6 +93,10 @@ body{
 	background: #22252A;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 @media (min-width: 768px) {
 	body{
 		display: none;
@@ -102,4 +106,5 @@ body{
 ::selection {
   color: white;
   background: #3D93C2;
+
 }
