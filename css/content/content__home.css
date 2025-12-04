@@ -1,0 +1,54 @@
+.content_home{
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.otveti-pdd{
+    margin-bottom: 50px; /* Отступ между категориями */
+}
+
+.home__title{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.home__subtitle{
+    font-size: 15px;
+    color: #62656C;
+    margin: 0 0 10px 0;
+    padding-bottom: 20px;
+}
+
+.bileti-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Отступ между билетами */
+}
+
+.bilet-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #2D3035;
+}
+
+.bileti-nomer {
+    color: #62656C;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #62656C;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bileti-otveti {
+    margin: 0;
+    color: #ffffff;
+}

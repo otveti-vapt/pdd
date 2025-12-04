@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+.boxheader {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-bottom: 25px;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 12px;
+    background: #2D3035;
+}
+
+.header_nav {
+    display: flex;
+    gap: 20px;
+}
+
+.telegram-link{
+	background: #3D93C2;
+	padding: 8px;
+	border-radius: 5px;
+	color: white;
+}
+
+.logo{
+	color: #ffffff;
+}
+
+.bilet-item{
+    background: #F6F7FB;
+    padding: 8px;
+    border-radius: 10px;
+}
